@@ -13,7 +13,8 @@ All code in this repository is free to use by anyone anytime, but without any wa
 
 1. Clone the repository
 2. Run `make build` to build all related containers including Tomcat.
-3. Deploy javarestapp.war manually or use `mvn tomcat7:deploy` command.
+3. Run `make start` to start all containers and `make stop` to stop them. Once all containers are running, you can connect to them and run your apps.
+4. Deploy javarestapp.war manually or use `mvn tomcat7:deploy` command.
 
 ## Tomcat setup
 
