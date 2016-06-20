@@ -6,6 +6,9 @@
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>artifactId Maven Webapp</name>
+  <properties>
+    <jersey.version>1.19</jersey.version>
+  </properties>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
